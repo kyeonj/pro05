@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:th="http://www.thymeleaf.org"
+ xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+	<title>메인 페이지</title>
+	<th:block th:insert="common/head"></th:block>
+</head>
+<body>
+<div class="fluid-container">
+	<th:block th:insert="common/header"></th:block>
+	<div class="container">
+	<h2>메인 페이지</h2>
+	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	  <div class="carousel-indicators">
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+	    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+	  </div>
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="theme/img/main1.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="theme/img/main2.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="theme/img/main3.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="theme/img/main4.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="theme/img/main5.jpg" class="d-block w-100" alt="...">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="theme/img/main6.jpg" class="d-block w-100" alt="...">
+	    </div>
+	  </div>
+	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Previous</span>
+	  </button>
+	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    <span class="visually-hidden">Next</span>
+	  </button>
+	</div>
+	<hr>
+	<h4>NEW ARRIVAL</h4>
+	<span style="color: gray;">매일매일 업데이트 되는 신상!</span>
+	<hr>
+	<div class="row row-cols-1 row-cols-md-4 g-4" style="width: 100%;" >
+	  <div class="col">
+	    <div class="card h-100" >
+	      <img src="theme/img/new1.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">[Premium] SlgTho니트집업</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">28,000원</span>
+	        <span class="card-text2">26,600원</span>
+	        <p class="card-text" >다양한 룩 연출로 코디 활용도 높은 프리미엄 니트 집업! 베이직한 디자인에 자수 디테일로 포인트를 주어 멋스럽게 입기 좋은 아이템이에요 : ) 포근한 울 소재 함유로 지금부터 봄 시즌까지 쭉- 함께하기 좋아 추천드려요♡</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new2.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">믹스오픈카라니트 (wool)</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">25,000원</span>
+	        <span class="card-text2">23,700원</span>
+	        <p class="card-text">여러 가지 컬러 실이 믹스된 울 소재로 멋스러운 오픈카라 니트T 소개해요 *.* 여유로운 정사이즈핏+롱 소매로 날씬하고 여리여리해 보이는 아이템! 차분하고 고급스러운 무드의 5컬러 구성으로 만나요♡</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new3.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">블룸캐시V벌룬니트</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">19,900원</span>
+	        <span class="card-text2">18,900원</span>
+	        <p class="card-text">부드럽고 포근한 캐시미어 함유 소재로 겨울 내내 입기 좋은 니트예요 *.* 봉긋한 벌룬핏 소매로 러블리한 무드를 가득- 담은 아이템! 지금부터 봄 시즌까지 쭈욱 활용되어 강.추 드려요♡</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new4.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">어센틱양기모후드T</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">32,000원</span>
+	        <span class="card-text2">30,400원</span>
+	        <p class="card-text">2배로 따뜻함을 안겨줄 양기모 루즈핏 후드티♡ 직접 수놓은듯한 자수 레터링으로 퀄리티 높게 제작되었어요! 부드러운 색감으로 데일리로 사랑스럽게 즐기기 좋답니다 *.* 3컬러로 만나보세요~</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new5.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">캐시울배색카라가디건</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">25,000원</span>
+	        <span class="card-text2">23,700원</span>
+	        <p class="card-text">센스 있는 컬러 배색으로 멋스러운 스트라이프 카라 가디건 소개해요♡ 단추 오픈&클로징에 따라 가디건으로도, 니트T로도- 투웨이로 즐길 수 있는 아이템! 부드러운 터치감의 울, 캐시미어 혼방 니트로 퀄리티 높아 강추 드려요 : )</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new6.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">Card title</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">25,000원</span>
+	        <span class="card-text2">23,700원</span>
+	        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new7.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">Card title</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">25,000원</span>
+	        <span class="card-text2">23,700원</span>
+	        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="theme/img/new8.gif" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">Card title</h5>
+	        <span class="card-text1" style="text-decoration: line-through;">25,000원</span>
+	        <span class="card-text2">23,700원</span>
+	        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+</div>
+<th:block th:insert="common/footer"></th:block>
+</div>
+</body>
+</html>
